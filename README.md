@@ -6,7 +6,7 @@ This service is a **systemd unit** designed to manage Bluetooth functionality du
 ### Why Use This Service?
 Some Linux users experience issues with Bluetooth drivers when resuming from sleep, particularly with certain kernel versions. This problem manifests as a black screen, causing the system to hang. For example:
 
-- **Kernel 6.1.x** has reported bugs causing the system to hang after waking from sleep.  
+- **Kernel 6.11.x** has reported bugs causing the system to hang after waking from sleep.  
   References:  
   - [Kernel Bugzilla Report #219290](https://bugzilla.kernel.org/show_bug.cgi?id=219290)  
   - [Red Hat Bug Report #2320035](https://bugzilla.redhat.com/show_bug.cgi?id=2320035)  
